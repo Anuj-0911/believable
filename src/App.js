@@ -16,6 +16,8 @@ import header10img from './designing poster web/Group 4462.png';
 import header11img from './designing poster web/Group 4446.png';
 import header81img from './designing poster web/Group 4463.png';
 import headinglogo2 from './designing poster web/Group 4465.png';
+import backseclast from './designing poster web/Group 1815.png';
+import testim from './designing poster web/testim.png';
 import catimg1 from './designing poster web/Group 1817.png';
 import poster1 from './designing poster web/10-1-2021.png';
 import poster2 from './designing poster web/ordlance.png';
@@ -356,6 +358,26 @@ function App() {
               <img src={header81img} alt="" className="header2img"/>
               </Col>
             </Row>
+        </Container>
+      </div>
+      <div className="header2" >
+        <Container>
+          <Row>
+            <Col sm={1} md={1} xl={1} xs={1}>
+            <img src={deco1} alt="deco" className="decorater1" />
+            </Col>
+            <Col sm={11} md={11} xl={11} xs={11}>
+            <h1 className="heading2">Why choosing us for designing</h1></Col>
+          </Row>
+          <img src={backseclast} className="flexlg" alt="img"/>
+          <Row className="gapper">
+            <Col sm={1} md={1} xl={1} xs={1}>
+            <img src={deco1} alt="deco" className="decorater1" />
+            </Col>
+            <Col sm={11} md={11} xl={11} xs={11}>
+            <h1 className="heading2">Clients Testimonals</h1></Col>
+          </Row>
+          <img src={testim} className="flexlg" alt="img"/>
         </Container>
       </div>
     </div>
