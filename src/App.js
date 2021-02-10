@@ -16,6 +16,7 @@ import header10img from './designing poster web/Group 4462.png';
 import header11img from './designing poster web/Group 4446.png';
 import header81img from './designing poster web/Group 4463.png';
 import headinglogo2 from './designing poster web/Group 4465.png';
+import catimg1 from './designing poster web/Group 1817.png';
 import poster1 from './designing poster web/10-1-2021.png';
 import poster2 from './designing poster web/ordlance.png';
 import poster3 from './designing poster web/Instagram Post – 7.png';
@@ -265,7 +266,92 @@ function App() {
               <img src={header11img} alt="" className="header3image header51img"/>
               </Col>
             </Row>
-            <Row>
+        </Container>
+      </div>
+      <div className="header2">
+        <Container>
+          <Row>
+            <Col sm={1} md={1} xl={1} xs={1}>
+            <img src={deco1} alt="deco" className="decorater1" />
+            </Col>
+            <Col sm={11} md={11} xl={11} xs={11}>
+            <h1 className="heading2">Other categories that may interest you</h1></Col>
+          </Row>
+          <Row>
+            <Col sm={4} xl={4} md={4} xs={12} className="catcol" style={
+              { 
+                backgroundImage:  `url(${catimg1})`,
+                backgroundSize: '96%  85px',
+                backgroundRepeat: 'no-repeat'
+              }}>
+            Logo Designing
+            </Col>
+            <Col sm={4} xl={4} md={4} xs={12} className="catcol" style={{backgroundImage:  `url(${catimg1})`,
+                backgroundSize: '96%  85px',
+                backgroundRepeat: 'no-repeat'}}>
+            UI/UX Design 
+            </Col>
+            <Col sm={4} xl={4} md={4} xs={12} className="catcol" style={{ backgroundImage:  `url(${catimg1})`,
+                backgroundSize: '96%  85px',
+                backgroundRepeat: 'no-repeat'}}>
+            Flyer & Boucher
+            </Col>
+          </Row>
+          <Row>
+            <Col sm={4} xl={4} md={4} xs={12} className="catcol" style={{ backgroundImage:  `url(${catimg1})`,
+                backgroundSize: '96%  85px',
+                backgroundRepeat: 'no-repeat'}}>
+            Cariculture
+            </Col>
+            <Col sm={4} xl={4} md={4} xs={12} className="catcol" style={{ backgroundImage:  `url(${catimg1})`,
+                backgroundSize: '96%  85px',
+                backgroundRepeat: 'no-repeat'}}>
+              Face or Character
+              Illustration
+            </Col>
+            <Col sm={4} xl={4} md={4} xs={12} className="catcol" style={{ backgroundImage:  `url(${catimg1})`,
+                backgroundSize: '96%  85px',
+                backgroundRepeat: 'no-repeat'}}>
+            Posters & Banners
+
+            </Col>
+          </Row>
+          <Row>
+            <Col sm={4} xl={4} md={4} xs={12} className="catcol" style={{ backgroundImage:  `url(${catimg1})`,
+                backgroundSize: '96%  85px',
+                backgroundRepeat: 'no-repeat'}}>
+            E-Invitations without photos
+            </Col>
+            <Col sm={4} xl={4} md={4} xs={12} className="catcol" style={{ backgroundImage:  `url(${catimg1})`,
+                backgroundSize: '96%  85px',
+                backgroundRepeat: 'no-repeat'}}>
+            ID Card & T-Shirt
+
+            </Col>
+            <Col sm={4} xl={4} md={4} xs={12} className="catcol" style={{ backgroundImage:  `url(${catimg1})`,
+                backgroundSize: '96%  85px',
+                backgroundRepeat: 'no-repeat'}}>
+            E-Invitations with photos
+             </Col>
+          </Row>
+          <Row>
+            <Col sm={4} xl={4} md={4} xs={12} className="catcol" style={{ backgroundImage:  `url(${catimg1})`,
+                backgroundSize: '96%  85px',
+                backgroundRepeat: 'no-repeat'}}>
+                  Visiting Card 
+            </Col>
+            <Col sm={4} xl={4} md={4} xs={12} className="catcol" style={{ backgroundImage:  `url(${catimg1})`,
+                backgroundSize: '96% 85px',
+                backgroundRepeat: 'no-repeat'}}>
+                  Greeting Cards
+            </Col>
+            <Col sm={4} xl={4} md={4} xs={12} className="catcol" style={{ backgroundImage:  `url(${catimg1})`,
+                backgroundSize: '96%  85px',
+                backgroundRepeat: 'no-repeat'}}>
+                  Bookmarks
+            </Col>
+          </Row>
+          <Row>
               <Col>
               <img src={header81img} alt="" className="header2img"/>
               </Col>
