@@ -6,6 +6,15 @@ import callbox from './designing poster web/Rectangle 154.png';
 import deco1 from './designing poster web/Line 103.png';
 import {Container,Col,Button} from 'react-bootstrap';
 import header2img from './designing poster web/Group 182.png';
+import header3img from './designing poster web/Group 4466.png';
+import header4img from './designing poster web/Group 4467.png';
+import header41img from './designing poster web/Group 4432.png';
+import header42img from './designing poster web/Group 4433.png';
+import header411img from './designing poster web/Group 1128.png';
+import header422img from './designing poster web/Group 4445.png';
+import header10img from './designing poster web/Group 4462.png';
+import header11img from './designing poster web/Group 4446.png';
+import header81img from './designing poster web/Group 4463.png';
 import headinglogo2 from './designing poster web/Group 4465.png';
 import poster1 from './designing poster web/10-1-2021.png';
 import poster2 from './designing poster web/ordlance.png';
@@ -77,7 +86,7 @@ function App() {
             <h1 className="heading2">Poster designs you can rely on!</h1></Col>
           </Row>
           <Row>
-            <Col sm={8} md={8} xl={8} xs={8} >
+            <Col sm={8} md={8} xl={8} xs={12} >
               <p className="contenthead2">Posters are everywhere like at the place of business, public places, at
                   trade shows and conventions and as a perk to vendors and
                   suppliers. Posters allow us to spread message faster in a simple and
@@ -96,7 +105,7 @@ function App() {
                 <br/>
                 <Button variant="primary" className="buttonhead2">Get Start Now</Button>
             </Col>
-            <Col sm={4} md={4} xl={4} xs={4}>
+            <Col sm={4} md={4} xl={4} xs={12}>
               <img src={header2img} alt="" className="header2image"/>
             </Col>
           </Row>
@@ -182,6 +191,86 @@ function App() {
             </Col>
           </Row>
       </Container>
+      </div>
+      <div className="header2">
+        <Container>
+          <Row className="gapper">
+            <Col sm={1} md={1} xl={1} xs={1}>
+            <img src={deco1} alt="deco" className="decorater1" />
+            </Col>
+            <Col sm={11} md={11} xl={11} xs={11}>
+            <h1 className="heading2">Innovative ideas from Professional Designers</h1></Col>
+          </Row>
+          <Row>
+          <Col sm={4} md={4} xs={12} xl={4} >
+            <p className="contenthead2">
+          There is no better way to design a creative
+          poster compared to Poster Design
+          Contests. Multiple design ideas will be sent
+          by designers from all over the world and
+          you can choose the best and impressive
+          poster. No annoying apps and templates.
+          You'll get 100% unique posters this way!
+          </p>
+            </Col>
+            <Col sm={4} md={4} xs={12} xl={4}>
+              <img src={header3img} alt="" className="header2image"/>
+            </Col>
+            <Col sm={4} md={4} xs={12} xl={4}>
+              <img src={header4img} alt="" className="header2image"/>
+            </Col>
+            </Row>
+        </Container>
+      </div>
+      <div className="header2">
+        <Container>
+          <Row className="gapper">
+            <Col sm={1} md={1} xl={1} xs={1}>
+            <img src={deco1} alt="deco" className="decorater1" />
+            </Col>
+            <Col sm={11} md={11} xl={11} xs={11}>
+            <h1 className="heading2">Budget doesn't matter , Best Poster Designs</h1></Col>
+          </Row>
+          <Row>
+          <Col>
+            <p className="contenthead2">
+            We assure you that your budget doesn't matter much . Our hands-on support and service is available
+            for you in your pocket budget.
+          </p>
+            </Col>
+          </Row>
+          <Row>
+          <Col sm={4} md={4} xs={6} xl={4}>
+              <img src={header411img} alt="" className="header3image header4img"/>
+            </Col>
+            <Col sm={2} md={2} xs={6} xl={2}>
+              <img src={header41img} alt="" className="header3image header4img"/>
+            </Col>
+            <Col sm={4} md={4} xs={6} xl={4}>
+              <img src={header422img} alt="" className="header3image header4img"/>
+            </Col>
+            <Col sm={2} md={2} xs={6} xl={2}>
+              <img src={header42img} alt="" className="header3image header4img"/>
+            </Col>
+            </Row>
+            <div className="midcaller">
+              <p className="midtext">Place Your Order and grow your business with a attractive posters</p>
+              <Button variant="primary midtext">Call Now</Button>
+            </div>
+            <Row>
+              <Col sm={8} md={8} xs={12} xl={8}>
+              <img src={header10img} alt="" className="header3image header5img"/>
+              </Col>
+              <Col sm={4} md={4} xs={12} xl={4}>
+              <img src={header11img} alt="" className="header3image header51img"/>
+              </Col>
+            </Row>
+            <Row>
+              <Col>
+              <img src={header81img} alt="" className="header2img"/>
+              </Col>
+            </Row>
+        </Container>
       </div>
     </div>
   );

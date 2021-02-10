@@ -67,7 +67,7 @@ code {
 }
 .decorater1
 {
-  height: 40px;
+  height: 50px;
 }
 .heading2
 {
@@ -108,4 +108,41 @@ code {
   max-width: 90%;
   margin:4%;
   margin-top:10%;
+}
+
+.gapper
+{
+  margin-bottom: 20px;
+}
+.header4img
+{
+  max-width: 70%;
+  margin-top: 20px;
+}
+.header5img
+{
+  object-fit: cover;
+  margin-top: 30px;
+  max-width: 90%;
+
+}
+.header51img
+{
+  max-width: 90%;
+  margin-top: 150px;
+}
+.midcaller
+{
+  text-align: center;
+  display: flex;
+  border: solid black 1px;
+  padding: 6px;
+  border-radius: 15px;
+  margin: 20px;
+}
+.midtext
+{
+  padding: 15px;
+  padding-right: 15px;
+  font-size: 25px;
 }
